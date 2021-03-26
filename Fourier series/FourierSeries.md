@@ -78,10 +78,12 @@
 
 用![5](https://latex.codecogs.com/svg.latex?\cos(k\omega{t}))乘傅里叶级数等号两边得：  
 ![6](equation3.svg)  
-然后对上式进行[-π, π]范围积分：
+然后对上式进行[-π, π]范围积分：  
+
 ![6](equation4.svg)  
 根据三角函数系的正交性，红色积分为0，蓝色项中仅当 [公式] 时积分不为0，其余项积分为0，所以有：
-![6](equation5.svg)
+![6](equation5.svg)  
+
 解得：  
 ![5](https://latex.codecogs.com/svg.latex?a_n=\frac{1}{\pi}\int_{-\pi}^{\pi}\cos(n\omega{t})f(t)dt,(k\not=n))  
 同理用得：  
