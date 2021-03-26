@@ -65,20 +65,22 @@
 <center>
 
 ![5](https://latex.codecogs.com/svg.latex?f(t)=A_0+\sum_{n=1}^{\infty}a_{n}\cos{(n\omega{t})}+b_{n}\sin{(n\omega{t})})  
-</center> 
-　　对傅里叶级数在[-π, π]范围积分，得：  
+</center>  
+
+对傅里叶级数在[-π, π]范围积分，得：  
 <center>  
 
 ![5](equation2.svg)
 </center>
 
-解得:![5](https://latex.codecogs.com/svg.latex?A_0=\frac{1}{2\pi}\int_{-\pi}^{\pi}f(t))  
+解得:  
+![5](https://latex.codecogs.com/svg.latex?A_0=\frac{1}{2\pi}\int_{-\pi}^{\pi}f(t))  
 
-用![5](https://latex.codecogs.com/svg.latex?\cos(k\omega{t}))乘傅里叶级数等号两边得：
-![6](equation3.svg)
+用![5](https://latex.codecogs.com/svg.latex?\cos(k\omega{t}))乘傅里叶级数等号两边得：  
+![6](equation3.svg)  
 然后对上式进行[-π, π]范围积分：
-![6](equation4.svg)
-　　根据三角函数系的正交性，红色积分为0，蓝色项中仅当 [公式] 时积分不为0，其余项积分为0，所以有：
+![6](equation4.svg)  
+根据三角函数系的正交性，红色积分为0，蓝色项中仅当 [公式] 时积分不为0，其余项积分为0，所以有：
 ![6](equation5.svg)
 解得：  
 ![5](https://latex.codecogs.com/svg.latex?a_n=\frac{1}{\pi}\int_{-\pi}^{\pi}\cos(n\omega{t})f(t)dt,(k\not=n))  
