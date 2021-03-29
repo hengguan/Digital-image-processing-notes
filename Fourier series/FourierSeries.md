@@ -116,3 +116,6 @@
 
 ![5](https://latex.codecogs.com/svg.latex?c_n=\frac{1}{T}\int_{\frac{-T}{2}}^{\frac{T}{2}}f(t)e^{-in\omega\{t}}dt)  
 </center> 
+
+![](https://zhuanlan.zhihu.com/p/41455378)[1] https://zhuanlan.zhihu.com/p/41455378  
+![](https://blog.csdn.net/hery_hery/article/details/107402127)[2] https://blog.csdn.net/hery_hery/article/details/107402127
